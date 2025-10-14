@@ -39,6 +39,7 @@ public double getPrice() {
 public void setPrice(double price) {
 	this.price = price;
 }
+
 @Override
 public String toString() {
 	return "Item [iid=" + iid + ", iname=" + iname + ", qty=" + qty + ", price=" + price + "]";
